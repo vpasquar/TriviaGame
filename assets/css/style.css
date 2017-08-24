@@ -1,0 +1,54 @@
+body,html {
+	background-image: url(../images/background2.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    height:100%;
+	margin:0;
+}
+
+.container {
+	width:65%;
+	background-color:#2EE176;
+	margin-top:55px;
+}
+
+button {
+	margin-left:45%;
+}
+
+input {
+	padding:5px;
+	margin:5px;
+}
+
+h1 {
+	text-align:center;
+}
+form {
+    
+	margin-left:20%;
+}
+p {
+    font-family:monospace;
+	
+	color:black;
+	
+	
+	font-size:28px;
+	font-style:bold;
+	
+}	
+label {
+	color:black;
+	font-style:italic;
+}
+
+.timer,.result-area {
+	font-family:monospace;
+	font-size:55px;
+	color:green;
+	background:black;
+	text-align:center;
+}
