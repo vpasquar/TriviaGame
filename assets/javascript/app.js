@@ -135,6 +135,7 @@ function stop(){
    $(".resetButton").click(function(e) {
 	e.preventDefault();
     time = 30;
+    correctCnt = 0;
 	generateQuiz();      
    });
 }
