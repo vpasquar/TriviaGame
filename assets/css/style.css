@@ -10,7 +10,8 @@ body,html {
 
 .container {
 	width:65%;
-	background-color:#2EE176;
+	/*background-color:#2EE176; */
+	background-color:#61EA98;
 	margin-top:55px;
 }
 
@@ -51,4 +52,8 @@ label {
 	color:green;
 	background:black;
 	text-align:center;
+}
+
+.resetButton {
+	margin-left:45%;
 }

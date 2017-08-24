@@ -116,7 +116,7 @@ function runTimer(){
 
 	if (time === 0) {
 		stop();
-		alert("Time Up!");
+		alert("Time's Up! You Lose!");
 	}
 }
 
@@ -126,5 +126,15 @@ function stop(){
        var g = $("<div>").addClass("result-area")
        g.text("Score: " + correctCnt + " / " + questions.length); 
 
-   $(".content").html(g);       
+       var h = $("<input>").attr("type","button").attr("value","Try Again");
+       h.addClass("resetButton")
+       ;
+
+   $(".content").html(g).append("<br>").append(h); 
+
+   $(".resetButton").click(function(e) {
+	e.preventDefault();
+    time = 30;
+	generateQuiz();      
+   });
 }
